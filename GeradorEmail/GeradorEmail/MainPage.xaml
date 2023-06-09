@@ -10,7 +10,6 @@
         <Label Text="Nome completo:" FontSize="20" Padding="0, 15"/>
         <Entry x:Name="etNome" Keyboard="Text"  Placeholder="Informe o nome completo" />
         <Button Text="Gerar E-mail" Clicked="BtnGerarEmail_Clicked"/>
-        <Label Text="E-mail gerado:" FontSize="18" Padding="0, 30, 0, 5"/>
         <Label x:Name="lblEmail" FontSize="18" Padding="20, 0"/>
     </StackLayout>
 

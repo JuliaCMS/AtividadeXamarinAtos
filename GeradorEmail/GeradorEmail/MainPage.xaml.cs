@@ -31,7 +31,7 @@ namespace GeradorEmail
             {
                 email = linha[linha.Length - 1].ToLower() + "_" + linha[0].ToLower() + "@ufn.edu.br";
             }
-            lblEmail.Text = email;
+            lblEmail.Text = $"E-mail gerado: {email}";
         }
     }
 }

@@ -15,7 +15,7 @@
         <StackLayout Orientation="Horizontal">
             <Label Text="Peso:" FontSize="18" Padding="0, 15"/>
             <Entry x:Name="etPeso" Keyboard="Numeric" WidthRequest="100"/>
-            <Label Text="Altura (cm):" FontSize="18" Padding="0, 15"/>
+            <Label Text="Altura (M):" FontSize="18" Padding="0, 15"/>
             <Entry x:Name="etAltura" Keyboard="Numeric" WidthRequest="100"/>
         </StackLayout>
         <Button Text="Calcular IMC" Clicked="BtnCalcular_Clicked"/>
